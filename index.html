@@ -1,50 +1,125 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
-    <title>Pagina Inicial</title>
-    <link rel="stylesheet" href="pg.inicial.css">
+    <title> Dog Dodói </title>
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
-<body>
-<main class="Fundo">
-    <img class="imgInicial" src="ImgPgInicial/TracosDoTempo.jpeg" > <div>
-    <h1></h1>
-        <h2>Sobre nós</h2>
-        <p class="Nos">Somos apaixonados pela arte e dedicamos este espaço para explorar os movimentos que marcaram a história:
-            Renascimento, Maneirismo, Barroco e Rococó. O Renascimento trouxe o humanismo e o naturalismo,
-            o Maneirismo desafiou as normas com distorções e emoções, o Barroco encantou com seu drama e exuberância,
-            e o Rococó trouxe leveza e elegância
 
-            Nosso objetivo é celebrar essas eras artísticas, explorando suas obras, artistas e influências.
-            Junte-se a nós nessa jornada pela história da arte, onde cada movimento revela uma nova maneira de ver o mundo.</p>
+<body>
+<header class="cabecalho">
+
+    <div class="logoTopo">
+        <img src="img/Logo_dog_dodoi.png" alt="Logo">
     </div>
 
-    <h2 class="Temas">Temas Abordados</h2>
-<div class="card">
-    <a href="Renascimento.html" target="_blank">
-    <img class="TemasArte" src="ImgPgInicial/Renascimento.jpeg">
-    </a>
-</div>
-<div class="card">
-    <a href="Maneirismo.html" target="_blank">
-    <img class="TemasArte" src="ImgPgInicial/Maneirismo.jpeg">
-    </a>
-</div>
-<div class="card">
-    <a href="Barroco.html" target="_blank">
-    <img class="TemasArte" src="ImgPgInicial/Barroco.jpeg">
-    </a>
-</div>
-<div class="card">
-    <a href="Rococo.html" target="_blank">
-    <img class="TemasArte" src="ImgPgInicial/Rococo.jpeg">
-    </a>
-</div>
-<footer>
+    <nav class="menuTopo">
+        <ul class="menus">
+            <li>Início</li>
+            <li>Benefícios</li>
+            <li class="btnAvaliacao"> Avalição Grátis</li>
+        </ul>
+    </nav>
 
-    <p>© 2024 - História da Arte</p>
-</footer>
+</header>
 
-</main>
+
+<section class="banner">
+
+    <div class="itensBanner">
+        <h1> Especialistas Apaixonados </h1>
+        <p> Os melhores cuidados para o seu amigo mais fiel</p>
+
+        <a href="#" class="btnAvaliacao">Quero uma avaliação grátis </a>
+        <img src="img/cachorro_deitado.png" alt="Cachorro deitado">
+    </div>
+
+</section>
+
+<section class="bemvindo">
+
+    <div class="containerBemVindo">
+        <div class="texto1">
+            <h4>Bem vindo </h4>
+            Olá,somos Dog Dodói. Aqui você pode ter certeza de
+            que seus bichinhos de estimação estão em boas mãos.
+        </div>
+        <div class="texto2">
+            Oferecemos tratamento veterinário
+            especializado para animais de estimação.
+            Nossos hospitais está sempre diponível para
+            cuidar do seu melhor amigo, pois estamos
+            abertos 24 horas por dia. 7 dias da semana.
+        </div>
+    </div>
+
+</section>
+
+<section class="beneficios">
+    <div class="containerBeneficios">
+        <h4> Nossos benefícios </h4>
+        <p> Oferecemos serviços médicos e cirurgias para animais de estimação</p>
+
+
+        <div class="ItensBeneficios">
+            <div class="Servico1">
+                <img src="img/servico1.png" alt="Serviço 1">
+                <p> Médicos especializados</p>
+            </div>
+
+            <div class="Servico2">
+                <img src="img/servico2.png" alt="Serviço 2">
+                <p>Consultas em casa</p>
+            </div>
+
+            <div class="Servico3">
+                <img src="img/servico3.png" alt="Serviço 3">
+                <p> Suporte ao paciente </p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="avaliacao">
+    <div class="containerAvaliacao">
+        <div class="cachorroAvaliacao">
+            <img src="img/cachorro_avaliacao.png" alt="Cachorro Avaliacao">
+        </div>
+    <div class="itensAvaliacao">
+        <h4>Marque uma avaliação gratuita</h4>
+        <p> Consulte nossos veterinários profissionais hoje</p>
+
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Insira seu nome">
+
+               <label for="email">E-mail:</label>
+               <input type="email" id="email" name="email" placeholder="Insira seu email">
+
+               <label for="celular">Celular:</label>
+               <input type="tel" id="celular" name="celular" placeholder="Insira seu celular">
+
+            <button type='submit' class="btnForm"> Quero uma avaliação</button>
+        </form>
+        
+    </div>
+    </div>
+    
+    <footer class="rodape">
+        <div class="containerRodape">
+            <img src="img/Logo_dog_dodoi.png" alt="logo Rodape">
+            <p> (18) 99123-1234 / (18) 3636-3636</p>
+        </div>
+        
+        <img src="img/Logo_Zap.png" alt="">
+    </footer>
+
+</section>
+
 </body>
+
 </html>
+
